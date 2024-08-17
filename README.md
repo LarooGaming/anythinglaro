@@ -9,6 +9,124 @@ New Up coming Games
     <link rel="stylesheet" href=".css"> <!-- Link to the CSS file -->
 </head>
 <body>
+    *{
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: #fff;
+}
+
+header {
+  background-color: #111;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo img {
+  height: 50px; 
+  width: auto;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f4f4f4;
+}
+
+.hero {
+  background-image: url(Halo\ 3.jpg); 
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+.cta-button {
+  background-color: #e94e77; 
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.1em;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: #d43f62;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.games-section, .about-section, .contact-section, .movies-section{
+  text-align: center;
+  padding: 20px;
+}
+
+.game-card {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+}
+
+.game-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #111;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+    }
     <header>
         <nav class="navbar">
             <div class="container">
